@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(109, 103, 103, 0.24);
+    width: 250px;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline;
+    color: rgba(29, 25, 25, 0.747);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgba(78, 41, 41, 0.63);
+  }

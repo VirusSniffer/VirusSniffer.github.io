@@ -1,0 +1,97 @@
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+         
+     html{
+        background : url(abc.jpg) no-repeat center fixed; 
+        background-size : cover;
+        }
+       
+        .center{
+            
+        
+        background-color: rgba(255, 255, 255, 0.637);
+        border-color: rgba(78, 41, 41, 0.863);
+        border-radius: 25px;
+        padding:auto;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 150px ;
+        margin-bottom: 180px;
+      
+        }
+
+        img
+        {display: block;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+       
+        }
+        p{
+        font-size: large;
+        width: 251px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        color:rgb(0, 0, 0);
+    }
+    .fa {
+  padding: 1px;
+  font-size: 100px;
+  width: 10px;
+  text-align: right;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+
+
+        </style>
+        <link rel="stylesheet" href="navigation.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="aboutme.css">
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script>
+            $(document).ready(function(){
+            $('.center').hover(function() {
+            $('img').animate(
+            { deg: 360 },
+                {
+                    duration: 3000,
+                    step: function(now) {
+                    $(this).css({ transform: 'rotate(' + now + 'deg)' });
+                }
+            }
+            );
+            });
+            });
+            </script>
+    </head>
+    <body>
+        
+        <div class="center">
+        <style></style>  
+        <img src="Untitled.jpg" alt="myself" width="225px" height="auto" >
+        <p><b>RAVI KUMAR CHOUDHARY</b></p>
+        <ul>    
+            <li><a class="active" href="#that">About Me</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlGVLWwsNgQwfrHQtDwDkSkbMfnFFJzgPbcJdVSsfZnrZzBGnzTBgsJrfqVpXFhzcQdmSB">Contact Me</a></li>
+            <li><a href="https://www.facebook.com/ravikumar.choudhary.31" class="fa fa-facebook"></a></li>
+            <li><a href="https://www.instagram.com/_ravichoudhary/" class="fa fa-instagram"></a></li>
+        </ul>
+        </div>
+        <div class ="parallax">
+            <div class ="h1">
+            <h1 id="that"><b>Thats Me</b></h1>
+            </div>
+            <div class ="p1">
+            <p>I am a 21 year old enthusiast programmer which has begin web designing and is very keen to learn more along with endulging in coding.
+                I am a student at Amity University.</p> 
+            
+            </div>
+        </div> 
+    </body>
+</html>
